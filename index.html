@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reebok FINDER</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><img src="logo.jpg" alt="Reebok"><span>FINDER</span></a>
+    <nav class="main-tabs" aria-label="メインメニュー">
+      <button class="main-tab is-active" type="button" data-view="relationView">関連付け</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="relationView" class="relation-view">
+      <div class="relation-hero">
+        <p class="eyebrow">DAILY PRODUCT WATCH</p>
+        <h1>関連付け <em>チェック</em></h1>
+        <p class="lead">表示されているアイテムは関連付け未対応アイテムです。<br>関連付け対応をお願いいたします。</p>
+      </div>
+      <div class="relation-summary">
+        <div>
+          <span class="summary-label">MATCHED ITEMS</span>
+          <strong id="productCount">—</strong>
+        </div>
+        <div>
+          <span class="summary-label">LAST UPDATED</span>
+          <strong id="updatedAt">—</strong>
+        </div>
+        <div class="rule-note">
+          <span class="rule-icon">◎</span>
+          <span>英字部分が同じ<br>関連アイテムに同名なし</span>
+        </div>
+      </div>
+      <div class="relation-results-head">
+        <div>
+          <p class="eyebrow">CURATED RESULTS</p>
+          <h2>今日のアイテム</h2>
+        </div>
+        <span id="scannedCount" class="muted"></span>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+      <div id="productEmpty" class="empty" hidden>
+        <div class="empty-mark">R</div>
+        <h3>まだ結果がありません</h3>
+        <p>データが登録されると、ここに表示されます。</p>
+      </div>
+
+      <div class="relation-results-head global-head">
+        <div>
+          <p class="eyebrow">GLOBAL CANDIDATES</p>
+          <h2>グローバル候補</h2>
+        </div>
+        <span id="globalCount" class="muted"></span>
+      </div>
+      <p class="lead global-lead">日本では関連付けされていませんが、グローバル(reebok.eu)では同じ名前の商品グループに入っているアイテムです。商品名から推測した<strong>候補</strong>のため、実際に色違いかは確認してください。</p>
+      <div id="globalGrid" class="product-grid compact"></div>
+      <div id="globalEmpty" class="empty" hidden>
+        <h3>候補はありません</h3>
+      </div>
+
+      <div id="checkedSection" class="checked-section">
+        <div class="relation-results-head checked-head">
+          <div>
+            <p class="eyebrow">CHECKED OFF</p>
+            <h2>確認済</h2>
+          </div>
+          <button id="checkedToggle" class="checked-toggle" type="button" aria-expanded="false">確認済を表示</button>
+        </div>
+        <div id="checkedBody" hidden>
+          <div id="checkedProductGrid" class="product-grid"></div>
+          <p id="checkedEmpty" class="checked-empty">確認済にしたアイテムはありません。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Reebok FINDER</span>
+    <span>DATA SOURCE: products.json</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

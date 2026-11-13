@@ -164,6 +164,64 @@ async function mapConcurrent(values, worker, concurrency) {
   return results;
 }
 
+// ---- グローバル(reebok.eu)との照合 ----
+const GLOBAL_BASE = "https://www.reebok.eu";
+
+// サイトマップから、グローバルの商品一覧を取得する(商品ページは取得制限があるため、サイトマップだけを使う)
+async function fetchGlobalIndex() {
+  const index = await fetchText(`${GLOBAL_BASE}/sitemap.xml`);
+  const sitemapUrls = [...index.matchAll(/<loc>([^<]*sitemap_products_[^<]*)<\/loc>/g)]
+    .map((m) => decodeHtml(m[1]))
+    .filter((u) => !/\.eu\/[a-z]{2}\//.test(u)); // 言語別(/nl/ など)は除く
+  const byNumber = new Map();
+  for (const sitemapUrl of sitemapUrls) {
+    const xml = await fetchText(sitemapUrl);
+    for (const entry of xml.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+      const loc = entry[1].match(/<loc>([^<]+)<\/loc>/)?.[1] || "";
+      const handle = loc.match(/\/products\/([^/?#]+)$/)?.[1] || "";
+      const m = handle.match(/^(.*)-(\d{9})-\d+$/);
+      if (!m) continue;
+      byNumber.set(m[2], {
+        slug: m[1],
+        globalUrl: loc,
+        image: entry[1].match(/<image:loc>([^<]+)<\/image:loc>/)?.[1] || "",
+        globalTitle: decodeHtml(entry[1].match(/<image:title>([^<]*)<\/image:title>/)?.[1] || "")
+      });
+    }
+  }
+  return byNumber;
+}
+
+// 日本のブランド商品番号の、空白以降にある「100」で始まる9桁の番号
+function colorNumber(brandItemNumber) {
+  return String(brandItemNumber || "").match(/\s(100\d{6})(?!\d)/)?.[1] || "";
+}
+
+// 日本で関連付けされていない(色違いとして挙がっていない)のに、グローバルでは同じ名前グループにいる商品を探す
+function buildGlobalGroups(products, globalIndex) {
+  const parent = new Map();
+  const find = (c) => { if (!parent.has(c)) parent.set(c, c); while (parent.get(c) !== c) { parent.set(c, parent.get(parent.get(c))); c = parent.get(c); } return c; };
+  for (const p of products) {
+    find(p.productNumber);
+    for (const code of p.variationProductNumbers || []) { const a = find(p.productNumber), b = find(code); if (a !== b) parent.set(b, a); }
+  }
+  const buckets = new Map();
+  for (const p of products) {
+    const g = globalIndex.get(colorNumber(p.brandItemNumber));
+    if (!g) continue;
+    const key = `${g.slug}\u0000${p.englishKey}`;
+    if (!buckets.has(key)) buckets.set(key, []);
+    buckets.get(key).push({ ...p, globalUrl: g.globalUrl, globalSlug: g.slug, component: find(p.productNumber) });
+  }
+  const groups = [];
+  for (const items of buckets.values()) {
+    if (new Set(items.map((i) => i.component)).size < 2) continue; // すべて日本で関連付け済みなら対象外
+    const clean = items.map(({ variationProductNumbers, component, relatedNames, ...rest }) => rest);
+    groups.push({ globalSlug: clean[0].globalSlug, englishKey: clean[0].englishKey, main: clean[0], related: clean.slice(1) });
+  }
+  return groups;
+}
+
 async function readPrevious() {
   try {
     return JSON.parse((await fs.readFile(OUT_FILE, "utf8")).replace(/^﻿/, ""));
@@ -234,8 +292,22 @@ async function crawl() {
     return { englishKey: main.englishKey, main, related: items.filter((item) => item !== main) };
   }).filter(Boolean);
 
+  let globalGroups = [];
+  let globalCount = 0;
+  try {
+    const globalIndex = await fetchGlobalIndex();
+    globalCount = globalIndex.size;
+    globalGroups = buildGlobalGroups(products, globalIndex);
+  } catch (error) {
+    console.warn(`グローバルの取得に失敗しました: ${error.message}`);
+    globalGroups = (await readPrevious()).globalGroups || [];
+  }
+  console.log(`グローバル商品 ${globalCount}件 / 候補グループ ${globalGroups.length}件`);
+
   const result = {
     updatedAt: new Date().toISOString(),
+    globalGroups,
+    globalScanned: globalCount,
     products: matched,
     groups: displayGroups,
     newCount: displayGroups.length,

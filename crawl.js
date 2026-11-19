@@ -30,7 +30,7 @@ function firstDigit(value) {
 }
 
 function displayGroupKey(product) {
-  return `${product.englishKey}\u0000${product.brandItemFirstDigit || product.productNumber}`;
+  return `${product.englishKey}\u0000${product.brandItemFirstDigit || product.productNumber}\u0000${product.season || ""}`;
 }
 
 function firstMatch(html, expressions) {
@@ -165,6 +165,38 @@ async function mapConcurrent(values, worker, concurrency) {
   return results;
 }
 
+// 商品番号(例: RE1759BC14839)の8文字目が、C:キッズ / M:メンズ / W:ウィメンズ
+function genderOf(product) {
+  return String(product.productNumber || "")[7] || "";
+}
+
+// 商品名の最後の「（色名）」
+function colorOf(product) {
+  const match = String(product.name || "").match(/[（(]([^（）()]*)[）)]\s*$/);
+  return (match ? match[1] : "").normalize("NFKC").replace(/\s+/g, "").toLowerCase();
+}
+
+// 関連付けできるのは、性別区分が同じ商品どうし。性別区分が違う場合は、色名が完全に一致するものだけ。
+function canLink(a, b) {
+  if (genderOf(a) === genderOf(b)) return true;
+  const color = colorOf(a);
+  return Boolean(color) && color === colorOf(b);
+}
+
+// 上のルールでつながる商品どうしを、1つのグループにまとめ直す(2件以上のものだけ返す)
+function splitByGender(items) {
+  const parent = items.map((_, i) => i);
+  const find = (i) => { while (parent[i] !== i) { parent[i] = parent[parent[i]]; i = parent[i]; } return i; };
+  for (let i = 0; i < items.length; i += 1) {
+    for (let j = i + 1; j < items.length; j += 1) {
+      if (canLink(items[i], items[j])) parent[find(j)] = find(i);
+    }
+  }
+  const groups = new Map();
+  items.forEach((item, i) => { const r = find(i); if (!groups.has(r)) groups.set(r, []); groups.get(r).push(item); });
+  return [...groups.values()].filter((g) => g.length > 1);
+}
+
 // ---- グローバル(reebok.eu)との照合 ----
 const GLOBAL_BASE = "https://www.reebok.eu";
 
@@ -216,7 +248,7 @@ function buildGlobalGroups(products, globalIndex) {
     buckets.get(key).push({ ...p, globalUrl: g.globalUrl, globalSlug: g.slug, component: find(p.productNumber) });
   }
   const groups = [];
-  for (const items of buckets.values()) {
+  for (const items of [...buckets.values()].flatMap(splitByGender)) {
     if (new Set(items.map((i) => i.component)).size < 2) continue; // すべて日本で関連付け済みなら対象外
     const clean = items.map(({ variationProductNumbers, component, relatedNames, ...rest }) => rest);
     groups.push({ globalSlug: clean[0].globalSlug, englishKey: clean[0].englishKey, main: clean[0], related: clean.slice(1) });
@@ -248,7 +280,7 @@ function buildCodeGroups(products) {
     buckets.get(key).push({ ...p, styleCode: code, component: find(p.productNumber) });
   }
   const groups = [];
-  for (const items of buckets.values()) {
+  for (const items of [...buckets.values()].flatMap(splitByGender)) {
     if (new Set(items.map((i) => i.component)).size < 2) continue;
     const clean = items.map(({ variationProductNumbers, component, relatedNames, ...rest }) => rest);
     groups.push({ englishKey: clean[0].englishKey, codePrefix: clean[0].styleCode.slice(0, -1), main: clean[0], related: clean.slice(1) });

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:43:13.773Z",
+  "updatedAt": "2026-11-19T01:10:47.109Z",
   "globalGroups": [
     {
       "globalSlug": "classic-az-sneakers",
@@ -647,7 +647,7 @@
     }
   ],
   "codeGroups": [],
-  "globalScanned": 1693,
+  "globalScanned": 1696,
   "products": [
     {
       "name": "クラシックレザー / CLASSIC LEATHER （フットウェアホワイト）",
@@ -3698,34 +3698,6 @@
       "relatedNames": []
     },
     {
-      "name": "ジグ キネティカ 2.5 エッジ / ZIG KINETICA 2.5 EDGE （チョーク）",
-      "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041556_1_l.jpg",
-      "productNumber": "RE1759BU041556",
-      "brandItemNumber": "155493 100254710 色 チョーク（100254710）",
-      "season": "2026年 春夏",
-      "brandItemFirstDigit": "1",
-      "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041556/",
-      "brandCode": "RE1759",
-      "brandName": "REEBOK",
-      "englishKey": "ZIG KINETICA 2 EDGE",
-      "relatedNames": []
-    },
-    {
-      "name": "ジグ キネティカ 2.5 エッジ / ZIG KINETICA 2.5 EDGE （ブラック）",
-      "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU37697_1_l.jpg",
-      "productNumber": "RE1759BU37697",
-      "brandItemNumber": "112802 100074785 色 ブラック（100074785）",
-      "season": "2024年 春夏",
-      "brandItemFirstDigit": "1",
-      "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU37697/",
-      "brandCode": "RE1759",
-      "brandName": "REEBOK",
-      "englishKey": "ZIG KINETICA 2 EDGE",
-      "relatedNames": [
-        "ジグ キネティカ 2.5 エッジ / ZIG KINETICA 2.5 EDGE （ブラック）"
-      ]
-    },
-    {
       "name": "コート アドバンス / COURT ADVANCE SA （ホワイト）",
       "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041560_1_l.jpg",
       "productNumber": "RE1759BU041560",
@@ -5145,13 +5117,13 @@
     {
       "englishKey": "CLASSIC LEATHER",
       "main": {
-        "name": "クラシックレザー / CLASSIC LEATHER （グレー）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041738_1_l.jpg",
-        "productNumber": "RE1759BW041738",
-        "brandItemNumber": "162014 100262151 色 グレー（100262151）",
+        "name": "クラシックレザー / CLASSIC LEATHER （フットウェアホワイト）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041869_1_l.jpg",
+        "productNumber": "RE1759BW041869",
+        "brandItemNumber": "146387 100245680 色 フットウェアホワイト（100245680）",
         "season": "2026年 春夏",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041738/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041869/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "CLASSIC LEATHER",
@@ -5226,13 +5198,13 @@
           ]
         },
         {
-          "name": "クラシックレザー / CLASSIC LEATHER （フットウェアホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041869_1_l.jpg",
-          "productNumber": "RE1759BW041869",
-          "brandItemNumber": "146387 100245680 色 フットウェアホワイト（100245680）",
+          "name": "クラシックレザー / CLASSIC LEATHER （グレー）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041738_1_l.jpg",
+          "productNumber": "RE1759BW041738",
+          "brandItemNumber": "162014 100262151 色 グレー（100262151）",
           "season": "2026年 春夏",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041869/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041738/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "CLASSIC LEATHER",
@@ -5282,13 +5254,13 @@
     {
       "englishKey": "CLUB C 85 VINTAGE",
       "main": {
-        "name": "クラブシー 85 ヴィンテージ / CLUB C 85 VINTAGE （フットウェアホワイト）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041135_1_l.jpg",
-        "productNumber": "RE1759BU041135",
-        "brandItemNumber": "103162 100233954 色 フットウェアホワイト（100233954）",
+        "name": "クラブシー 85 ヴィンテージ / CLUB C 85 VINTAGE （フットウェアホワイト/レトロティール）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041305_1_l.jpg",
+        "productNumber": "RE1759BW041305",
+        "brandItemNumber": "131868 100228202 色 フットウェアホワイト/レトロティール（100228202）",
         "season": "2025年 秋冬",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041135/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041305/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "CLUB C 85 VINTAGE",
@@ -5361,13 +5333,13 @@
           "relatedNames": []
         },
         {
-          "name": "クラブシー 85 ヴィンテージ / CLUB C 85 VINTAGE （フットウェアホワイト/レトロティール）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041305_1_l.jpg",
-          "productNumber": "RE1759BW041305",
-          "brandItemNumber": "131868 100228202 色 フットウェアホワイト/レトロティール（100228202）",
+          "name": "クラブシー 85 ヴィンテージ / CLUB C 85 VINTAGE （フットウェアホワイト）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041135_1_l.jpg",
+          "productNumber": "RE1759BU041135",
+          "brandItemNumber": "103162 100233954 色 フットウェアホワイト（100233954）",
           "season": "2025年 秋冬",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041305/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041135/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "CLUB C 85 VINTAGE",
@@ -5391,13 +5363,13 @@
     {
       "englishKey": "SPEED TANK",
       "main": {
-        "name": "スピード タンクトップ / SPEED TANK （ブラック）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759EM36210_1_l.jpg",
-        "productNumber": "RE1759EM36210",
-        "brandItemNumber": "115669 100200893 色 ブラック（100200893）",
-        "season": "2023年 秋冬",
+        "name": "スピード タンクトップ / SPEED TANK （ブルー）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759EM37943_1_l.jpg",
+        "productNumber": "RE1759EM37943",
+        "brandItemNumber": "116903 100203955 色 ブルー（100203955）",
+        "season": "2024年 春夏",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759EM36210/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759EM37943/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "SPEED TANK",
@@ -5405,13 +5377,13 @@
       },
       "related": [
         {
-          "name": "スピード タンクトップ / SPEED TANK （ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759EM37943_1_l.jpg",
-          "productNumber": "RE1759EM37943",
-          "brandItemNumber": "116903 100203955 色 ブルー（100203955）",
-          "season": "2024年 春夏",
+          "name": "スピード タンクトップ / SPEED TANK （ブラック）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759EM36210_1_l.jpg",
+          "productNumber": "RE1759EM36210",
+          "brandItemNumber": "115669 100200893 色 ブラック（100200893）",
+          "season": "2023年 秋冬",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759EM37943/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759EM36210/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "SPEED TANK",
@@ -5422,13 +5394,13 @@
     {
       "englishKey": "CLUB C 85",
       "main": {
-        "name": "クラブシー 85 / CLUB C 85 （アース）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041000_1_l.jpg",
-        "productNumber": "RE1759BU041000",
-        "brandItemNumber": "118691 100208969 色 アース（100208969）",
-        "season": "2025年 春夏",
+        "name": "クラブシー 85 / CLUB C 85 （ムーン）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041087_1_l.jpg",
+        "productNumber": "RE1759BU041087",
+        "brandItemNumber": "131896 100228117 色 ムーン（100228117）",
+        "season": "2025年 秋冬",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041000/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041087/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "CLUB C 85",
@@ -5508,13 +5480,13 @@
           "relatedNames": []
         },
         {
-          "name": "クラブシー 85 / CLUB C 85 （ムーン）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041087_1_l.jpg",
-          "productNumber": "RE1759BU041087",
-          "brandItemNumber": "131896 100228117 色 ムーン（100228117）",
-          "season": "2025年 秋冬",
+          "name": "クラブシー 85 / CLUB C 85 （アース）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041000_1_l.jpg",
+          "productNumber": "RE1759BU041000",
+          "brandItemNumber": "118691 100208969 色 アース（100208969）",
+          "season": "2025年 春夏",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041087/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041000/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "CLUB C 85",
@@ -5614,102 +5586,25 @@
       ]
     },
     {
-      "englishKey": "COURT CLEAN SA",
-      "main": {
-        "name": "コート クリーン / COURT CLEAN SA （ホワイト）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042920_1_l.jpg",
-        "productNumber": "RE1759BU042920",
-        "brandItemNumber": "160559 100275947 色 ホワイト（100275947）",
-        "season": "2026年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042920/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "COURT CLEAN SA",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "コート クリーン / COURT CLEAN SA （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU37718_1_l.jpg",
-          "productNumber": "RE1759BU37718",
-          "brandItemNumber": "112771 100074368 色 ホワイト（100074368）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU37718/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "COURT CLEAN SA",
-          "relatedNames": []
-        },
-        {
-          "name": "コート クリーン / COURT CLEAN SA （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041715_1_l.jpg",
-          "productNumber": "RE1759BU041715",
-          "brandItemNumber": "146334 100244964 色 ホワイト（100244964）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041715/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "COURT CLEAN SA",
-          "relatedNames": []
-        },
-        {
-          "name": "コート クリーン / COURT CLEAN SA （チョーク）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041796_1_l.jpg",
-          "productNumber": "RE1759BU041796",
-          "brandItemNumber": "146356 100244977 色 チョーク（100244977）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041796/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "COURT CLEAN SA",
-          "relatedNames": []
-        },
-        {
-          "name": "コート クリーン / COURT CLEAN SA （アラバスター）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042875_1_l.jpg",
-          "productNumber": "RE1759BU042875",
-          "brandItemNumber": "160560 100275932 色 アラバスター（100275932）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042875/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "COURT CLEAN SA",
-          "relatedNames": []
-        },
-        {
-          "name": "コート クリーン / COURT CLEAN SA （ローズウッド）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042895_1_l.jpg",
-          "productNumber": "RE1759BW042895",
-          "brandItemNumber": "160441 100260734 色 ローズウッド（100260734）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042895/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "COURT CLEAN SA",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
       "englishKey": "INSTAPUMP FURY 94",
       "main": {
-        "name": "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （フットウェアホワイト）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU044254_1_l.jpg",
-        "productNumber": "RE1759BU044254",
-        "brandItemNumber": "178345 100288625 色 フットウェアホワイト（100288625）",
-        "season": "2026年 秋冬",
+        "name": "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブルー）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042068_1_l.jpg",
+        "productNumber": "RE1759BU042068",
+        "brandItemNumber": "146569 100245176 色 ブルー（100245176）",
+        "season": "2026年 春夏",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU044254/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042068/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "INSTAPUMP FURY 94",
-        "relatedNames": []
+        "relatedNames": [
+          "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ネイビー）",
+          "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （チョーク）",
+          "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ホワイト）",
+          "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブラック）",
+          "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブラック）"
+        ]
       },
       "related": [
         {
@@ -5780,23 +5675,17 @@
           "relatedNames": []
         },
         {
-          "name": "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042068_1_l.jpg",
-          "productNumber": "RE1759BU042068",
-          "brandItemNumber": "146569 100245176 色 ブルー（100245176）",
-          "season": "2026年 春夏",
+          "name": "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （フットウェアホワイト）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU044254_1_l.jpg",
+          "productNumber": "RE1759BU044254",
+          "brandItemNumber": "178345 100288625 色 フットウェアホワイト（100288625）",
+          "season": "2026年 秋冬",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042068/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU044254/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "INSTAPUMP FURY 94",
-          "relatedNames": [
-            "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ネイビー）",
-            "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （チョーク）",
-            "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ホワイト）",
-            "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブラック）",
-            "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （ブラック）"
-          ]
+          "relatedNames": []
         },
         {
           "name": "インスタ ポンプフューリー 94 / INSTAPUMP FURY 94 （パープル）",
@@ -5816,168 +5705,15 @@
       ]
     },
     {
-      "englishKey": "KFS PREMIER TRINITY KFS",
-      "main": {
-        "name": "プレミア トリニティ KFS / PREMIER TRINITY KFS （グレー）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041953_1_l.jpg",
-        "productNumber": "RE1759BU041953",
-        "brandItemNumber": "155956 100256043 色 グレー（100256043）",
-        "season": "2026年 春夏",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041953/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "KFS PREMIER TRINITY KFS",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "プレミア トリニティ KFS / PREMIER TRINITY KFS （ピュアグレー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU37798_1_l.jpg",
-          "productNumber": "RE1759BU37798",
-          "brandItemNumber": "112870 100074432 色 ピュアグレー（100074432）",
-          "season": "2024年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU37798/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "KFS PREMIER TRINITY KFS",
-          "relatedNames": []
-        },
-        {
-          "name": "プレミア トリニティ KFS / PREMIER TRINITY KFS （ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU40274_1_l.jpg",
-          "productNumber": "RE1759BU40274",
-          "brandItemNumber": "118408 100208777 色 ブルー（100208777）",
-          "season": "2025年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU40274/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "KFS PREMIER TRINITY KFS",
-          "relatedNames": []
-        },
-        {
-          "name": "プレミアトリニティ KFS / PREMIER TRINITY KFS （クラシックベージュ）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041191_1_l.jpg",
-          "productNumber": "RE1759BU041191",
-          "brandItemNumber": "132531 100230889 色 クラシックベージュ（100230889）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041191/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "KFS PREMIER TRINITY KFS",
-          "relatedNames": []
-        },
-        {
-          "name": "プレミア トリニティ KFS / PREMIER TRINITY KFS （クレイ）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041195_1_l.jpg",
-          "productNumber": "RE1759BW041195",
-          "brandItemNumber": "134953 100230845 色 クレイ（100230845）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041195/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "KFS PREMIER TRINITY KFS",
-          "relatedNames": []
-        },
-        {
-          "name": "プレミアトリニティ KFS / PREMIER TRINITY KFS （アラバスター）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041213_1_l.jpg",
-          "productNumber": "RE1759BW041213",
-          "brandItemNumber": "132532 100230767 色 アラバスター（100230767）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041213/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "KFS PREMIER TRINITY KFS",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
-      "englishKey": "PHASE COURT",
-      "main": {
-        "name": "フェーズ コート / PHASE COURT （チョーク/ディープオリーブ）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041120_1_l.jpg",
-        "productNumber": "RE1759BU041120",
-        "brandItemNumber": "131940 100228196 色 チョーク/ディープオリーブ（100228196）",
-        "season": "2025年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041120/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "PHASE COURT",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "フェーズ コート / PHASE COURT （ブラック）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU39660_1_l.jpg",
-          "productNumber": "RE1759BU39660",
-          "brandItemNumber": "115796 100211202 色 ブラック（100211202）",
-          "season": "2024年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU39660/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "PHASE COURT",
-          "relatedNames": []
-        },
-        {
-          "name": "フェーズ コート / PHASE COURT （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU40229_1_l.jpg",
-          "productNumber": "RE1759BU40229",
-          "brandItemNumber": "138324 100234827 色 ホワイト（100234827）",
-          "season": "2025年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU40229/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "PHASE COURT",
-          "relatedNames": []
-        },
-        {
-          "name": "フェーズ コート / PHASE COURT （チョーク/レッド）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU040997_1_l.jpg",
-          "productNumber": "RE1759BU040997",
-          "brandItemNumber": "118642 100208946 色 チョーク/レッド（100208946）",
-          "season": "2025年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU040997/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "PHASE COURT",
-          "relatedNames": []
-        },
-        {
-          "name": "フェーズ コート / PHASE COURT （チョーク/ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041096_1_l.jpg",
-          "productNumber": "RE1759BU041096",
-          "brandItemNumber": "131939 100228194 色 チョーク/ブルー（100228194）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041096/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "PHASE COURT",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
       "englishKey": "UK CLUB C GROUNDS UK",
       "main": {
-        "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （ブラウン）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041864_1_l.jpg",
-        "productNumber": "RE1759BW041864",
-        "brandItemNumber": "146141 100244642 色 ブラウン（100244642）",
+        "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （グレー）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041865_1_l.jpg",
+        "productNumber": "RE1759BW041865",
+        "brandItemNumber": "146140 100244641 色 グレー（100244641）",
         "season": "2026年 春夏",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041864/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041865/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "UK CLUB C GROUNDS UK",
@@ -6050,13 +5786,13 @@
           "relatedNames": []
         },
         {
-          "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （グレー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041865_1_l.jpg",
-          "productNumber": "RE1759BW041865",
-          "brandItemNumber": "146140 100244641 色 グレー（100244641）",
+          "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （ブラウン）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041864_1_l.jpg",
+          "productNumber": "RE1759BW041864",
+          "brandItemNumber": "146141 100244642 色 ブラウン（100244642）",
           "season": "2026年 春夏",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041865/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041864/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "UK CLUB C GROUNDS UK",
@@ -6119,13 +5855,13 @@
     {
       "englishKey": "AZ CLASSIC AZ",
       "main": {
-        "name": "クラシック AZ / CLASSIC AZ （チョーク）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041895_1_l.jpg",
-        "productNumber": "RE1759BW041895",
-        "brandItemNumber": "146391 100245202 色 チョーク（100245202）",
-        "season": "2026年 春夏",
+        "name": "クラシック AZ / CLASSIC AZ （ブラック）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042862_1_l.jpg",
+        "productNumber": "RE1759BW042862",
+        "brandItemNumber": "160327 100260991 色 ブラック（100260991）",
+        "season": "2026年 秋冬",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041895/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042862/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "AZ CLASSIC AZ",
@@ -6198,13 +5934,13 @@
           "relatedNames": []
         },
         {
-          "name": "クラシック AZ / CLASSIC AZ （ブラック）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042862_1_l.jpg",
-          "productNumber": "RE1759BW042862",
-          "brandItemNumber": "160327 100260991 色 ブラック（100260991）",
-          "season": "2026年 秋冬",
+          "name": "クラシック AZ / CLASSIC AZ （チョーク）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041895_1_l.jpg",
+          "productNumber": "RE1759BW041895",
+          "brandItemNumber": "146391 100245202 色 チョーク（100245202）",
+          "season": "2026年 春夏",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042862/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041895/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "AZ CLASSIC AZ",
@@ -6226,181 +5962,15 @@
       ]
     },
     {
-      "englishKey": "HAMMER STREET",
-      "main": {
-        "name": "ハマー ストリート / HAMMER STREET （ピンク）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW043087_1_l.jpg",
-        "productNumber": "RE1759BW043087",
-        "brandItemNumber": "160423 100260690 色 ピンク（100260690）",
-        "season": "2026年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW043087/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "HAMMER STREET",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "ハマー ストリート / HAMMER STREET （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU40408_1_l.jpg",
-          "productNumber": "RE1759BU40408",
-          "brandItemNumber": "121108 100212123 色 ホワイト（100212123）",
-          "season": "2025年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU40408/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "HAMMER STREET",
-          "relatedNames": []
-        },
-        {
-          "name": "ハマー ストリート / HAMMER STREET （ブラック/ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041105_1_l.jpg",
-          "productNumber": "RE1759BU041105",
-          "brandItemNumber": "134891 100230341 色 ブラック/ホワイト（100230341）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041105/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "HAMMER STREET",
-          "relatedNames": []
-        },
-        {
-          "name": "ハマー ストリート / HAMMER STREET （ブラック）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041897_1_l.jpg",
-          "productNumber": "RE1759BU041897",
-          "brandItemNumber": "146270 100244890 色 ブラック（100244890）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041897/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "HAMMER STREET",
-          "relatedNames": []
-        },
-        {
-          "name": "ハマー ストリート / HAMMER STREET （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042994_1_l.jpg",
-          "productNumber": "RE1759BM042994",
-          "brandItemNumber": "172433 100279002 色 ホワイト（100279002）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042994/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "HAMMER STREET",
-          "relatedNames": []
-        },
-        {
-          "name": "ハマー ストリート / HAMMER STREET （ココア）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042995_1_l.jpg",
-          "productNumber": "RE1759BM042995",
-          "brandItemNumber": "172434 100279003 色 ココア（100279003）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042995/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "HAMMER STREET",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
-      "englishKey": "CLASSIC NYLON 89",
-      "main": {
-        "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （エスプレッソ）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042785_1_l.jpg",
-        "productNumber": "RE1759BM042785",
-        "brandItemNumber": "172460 100279117 色 エスプレッソ（100279117）",
-        "season": "2026年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042785/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "CLASSIC NYLON 89",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （グリットグリーン）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041155_1_l.jpg",
-          "productNumber": "RE1759BU041155",
-          "brandItemNumber": "132128 100242204 色 グリットグリーン（100242204）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041155/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "CLASSIC NYLON 89",
-          "relatedNames": []
-        },
-        {
-          "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （ムーン）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041182_1_l.jpg",
-          "productNumber": "RE1759BW041182",
-          "brandItemNumber": "132131 100239225 色 ムーン（100239225）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041182/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "CLASSIC NYLON 89",
-          "relatedNames": []
-        },
-        {
-          "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （ウォッシュドブラック）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041303_1_l.jpg",
-          "productNumber": "RE1759BU041303",
-          "brandItemNumber": "132158 100239577 色 ウォッシュドブラック（100239577）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041303/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "CLASSIC NYLON 89",
-          "relatedNames": []
-        },
-        {
-          "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041991_1_l.jpg",
-          "productNumber": "RE1759BU041991",
-          "brandItemNumber": "146436 100245073 色 ブルー（100245073）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041991/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "CLASSIC NYLON 89",
-          "relatedNames": []
-        },
-        {
-          "name": "クラシック ナイロン 89 / CLASSIC NYLON 89 （ヴィンテージチョーク）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042062_1_l.jpg",
-          "productNumber": "RE1759BU042062",
-          "brandItemNumber": "146450 100245075 色 ヴィンテージチョーク（100245075）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042062/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "CLASSIC NYLON 89",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
       "englishKey": "COURT ADVANCE SA",
       "main": {
-        "name": "コート アドバンス / COURT ADVANCE SA （チョーク）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042835_1_l.jpg",
-        "productNumber": "RE1759BM042835",
-        "brandItemNumber": "172487 100279237 色 チョーク（100279237）",
+        "name": "コート アドバンス / COURT ADVANCE SA （ホワイト）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042836_1_l.jpg",
+        "productNumber": "RE1759BM042836",
+        "brandItemNumber": "172482 100279221 色 ホワイト（100279221）",
         "season": "2026年 秋冬",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042835/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042836/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "COURT ADVANCE SA",
@@ -6473,13 +6043,13 @@
           "relatedNames": []
         },
         {
-          "name": "コート アドバンス / COURT ADVANCE SA （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042836_1_l.jpg",
-          "productNumber": "RE1759BM042836",
-          "brandItemNumber": "172482 100279221 色 ホワイト（100279221）",
+          "name": "コート アドバンス / COURT ADVANCE SA （チョーク）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042835_1_l.jpg",
+          "productNumber": "RE1759BM042835",
+          "brandItemNumber": "172487 100279237 色 チョーク（100279237）",
           "season": "2026年 秋冬",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042836/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042835/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "COURT ADVANCE SA",
@@ -6501,98 +6071,15 @@
       ]
     },
     {
-      "englishKey": "FORTE LOUNGER",
-      "main": {
-        "name": "フォルテ ラウンジャー / FORTE LOUNGER （ブラック）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042706_1_l.jpg",
-        "productNumber": "RE1759BW042706",
-        "brandItemNumber": "172046 100277628 色 ブラック（100277628）",
-        "season": "2026年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042706/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "FORTE LOUNGER",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "フォルテ ラウンジャー / FORTE LOUNGER （ピンク）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041830_1_l.jpg",
-          "productNumber": "RE1759BW041830",
-          "brandItemNumber": "163246 100263943 色 ピンク（100263943）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041830/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "FORTE LOUNGER",
-          "relatedNames": []
-        },
-        {
-          "name": "フォルテ ラウンジャー / FORTE LOUNGER （ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041831_1_l.jpg",
-          "productNumber": "RE1759BW041831",
-          "brandItemNumber": "163247 100263945 色 ホワイト（100263945）",
-          "season": "2026年 春夏",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041831/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "FORTE LOUNGER",
-          "relatedNames": []
-        },
-        {
-          "name": "フォルテ ラウンジャー / FORTE LOUNGER （チョーク）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042646_1_l.jpg",
-          "productNumber": "RE1759BW042646",
-          "brandItemNumber": "163555 100264438 色 チョーク（100264438）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042646/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "FORTE LOUNGER",
-          "relatedNames": []
-        },
-        {
-          "name": "フォルテ ラウンジャー / FORTE LOUNGER （ネイビー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042653_1_l.jpg",
-          "productNumber": "RE1759BU042653",
-          "brandItemNumber": "163553 100277618 色 ネイビー（100277618）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042653/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "FORTE LOUNGER",
-          "relatedNames": []
-        },
-        {
-          "name": "フォルテ ラウンジャー / FORTE LOUNGER （ネイビー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU042696_1_l.jpg",
-          "productNumber": "RE1759BU042696",
-          "brandItemNumber": "172043 100277624 色 ネイビー（100277624）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU042696/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "FORTE LOUNGER",
-          "relatedNames": []
-        }
-      ]
-    },
-    {
       "englishKey": "LXS RUN LXS",
       "main": {
-        "name": "ラン LXS / RUN LXS （チョーク）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042665_1_l.jpg",
-        "productNumber": "RE1759BW042665",
-        "brandItemNumber": "167911 100272002 色 チョーク（100272002）",
+        "name": "ラン LXS / RUN LXS （ブルー）",
+        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042666_1_l.jpg",
+        "productNumber": "RE1759BW042666",
+        "brandItemNumber": "167913 100272008 色 ブルー（100272008）",
         "season": "2026年 秋冬",
         "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042665/",
+        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042666/",
         "brandCode": "RE1759",
         "brandName": "REEBOK",
         "englishKey": "LXS RUN LXS",
@@ -6665,53 +6152,22 @@
           "relatedNames": []
         },
         {
-          "name": "ラン LXS / RUN LXS （ブルー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042666_1_l.jpg",
-          "productNumber": "RE1759BW042666",
-          "brandItemNumber": "167913 100272008 色 ブルー（100272008）",
+          "name": "ラン LXS / RUN LXS （チョーク）",
+          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042665_1_l.jpg",
+          "productNumber": "RE1759BW042665",
+          "brandItemNumber": "167911 100272002 色 チョーク（100272002）",
           "season": "2026年 秋冬",
           "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042666/",
+          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042665/",
           "brandCode": "RE1759",
           "brandName": "REEBOK",
           "englishKey": "LXS RUN LXS",
           "relatedNames": []
         }
       ]
-    },
-    {
-      "englishKey": "ENERGEN RUN 4 SA",
-      "main": {
-        "name": "エネルゲン ラン 4 / ENERGEN RUN 4 SA （ブラック）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042897_1_l.jpg",
-        "productNumber": "RE1759BW042897",
-        "brandItemNumber": "118746 100271465 色 ブラック（100271465）",
-        "season": "2026年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042897/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "ENERGEN RUN 4 SA",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "エネルゲン ラン 4 / ENERGEN RUN 4 SA （ネイビー/ホワイト）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042885_1_l.jpg",
-          "productNumber": "RE1759BM042885",
-          "brandItemNumber": "118745 100271462 色 ネイビー/ホワイト（100271462）",
-          "season": "2026年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042885/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "ENERGEN RUN 4 SA",
-          "relatedNames": []
-        }
-      ]
     }
   ],
-  "newCount": 16,
+  "newCount": 9,
   "displayedMainProductNumbers": [
     "RE1759BC14839",
     "RE1759BC15740",
@@ -7027,7 +6483,16 @@
     "RE1759BM042835",
     "RE1759BW042706",
     "RE1759BW042665",
-    "RE1759BW042897"
+    "RE1759BW042897",
+    "RE1759BW041869",
+    "RE1759BW041305",
+    "RE1759EM37943",
+    "RE1759BU041087",
+    "RE1759BU042068",
+    "RE1759BW041865",
+    "RE1759BW042862",
+    "RE1759BM042836",
+    "RE1759BW042666"
   ],
-  "scanned": 2103
+  "scanned": 2102
 }

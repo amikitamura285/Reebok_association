@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:11:39.920Z",
+  "updatedAt": "2026-11-24T04:24:05.041Z",
   "globalGroups": [
     {
       "globalSlug": "classic-az-sneakers",
@@ -1598,32 +1598,6 @@
       "brandCode": "RE1759",
       "brandName": "REEBOK",
       "englishKey": "INSTAPUMP FURY MULE",
-      "relatedNames": []
-    },
-    {
-      "name": "クラシックレザー 1983 ヴィンテージ / CLASSIC LEATHER 1983 VINTAGE （ダークブラウン）",
-      "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041128_1_l.jpg",
-      "productNumber": "RE1759BU041128",
-      "brandItemNumber": "132119 100230474 色 ダークブラウン（100230474）",
-      "season": "2025年 秋冬",
-      "brandItemFirstDigit": "1",
-      "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041128/",
-      "brandCode": "RE1759",
-      "brandName": "REEBOK",
-      "englishKey": "CLASSIC LEATHER 1983 VINTAGE",
-      "relatedNames": []
-    },
-    {
-      "name": "クラシックレザー 1983 ヴィンテージ / CLASSIC LEATHER 1983 VINTAGE （フットウェアホワイト）",
-      "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041372_1_l.jpg",
-      "productNumber": "RE1759BU041372",
-      "brandItemNumber": "134990 100230470 色 フットウェアホワイト（100230470）",
-      "season": "2025年 秋冬",
-      "brandItemFirstDigit": "1",
-      "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041372/",
-      "brandCode": "RE1759",
-      "brandName": "REEBOK",
-      "englishKey": "CLASSIC LEATHER 1983 VINTAGE",
       "relatedNames": []
     },
     {
@@ -4117,5 +4091,5 @@
     "RE1759BM043000",
     "RE1759BU041978"
   ],
-  "scanned": 2107
+  "scanned": 2103
 }

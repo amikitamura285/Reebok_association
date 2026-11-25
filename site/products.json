@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:24:05.041Z",
+  "updatedAt": "2026-11-25T03:08:32.960Z",
   "globalGroups": [
     {
       "globalSlug": "classic-az-sneakers",
@@ -2576,10 +2576,10 @@
       "relatedNames": []
     },
     {
-      "name": "ベルウェーブ / BELWAVE （ブルー）",
+      "name": "ベルウェーブ / BELWAVE （チョーク）",
       "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW042728_1_l.jpg",
       "productNumber": "RE1759BW042728",
-      "brandItemNumber": "163444 100264250 色 ブルー（100264250）",
+      "brandItemNumber": "163444 100264250 色 チョーク（100264250）",
       "season": "2026年 秋冬",
       "brandItemFirstDigit": "1",
       "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW042728/",
@@ -2589,10 +2589,10 @@
       "relatedNames": []
     },
     {
-      "name": "ベルウェーブ / BELWAVE （チョーク）",
+      "name": "ベルウェーブ / BELWAVE （グリーン）",
       "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BM042732_1_l.jpg",
       "productNumber": "RE1759BM042732",
-      "brandItemNumber": "163445 100264251 色 チョーク（100264251）",
+      "brandItemNumber": "163445 100264251 色 グリーン（100264251）",
       "season": "2026年 秋冬",
       "brandItemFirstDigit": "1",
       "url": "https://reebok.jp/commodity/SREB1055D/RE1759BM042732/",
@@ -4091,5 +4091,5 @@
     "RE1759BM043000",
     "RE1759BU041978"
   ],
-  "scanned": 2103
+  "scanned": 2102
 }

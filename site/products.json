@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T02:14:56.093Z",
+  "updatedAt": "2026-11-27T02:13:11.381Z",
   "globalGroups": [
     {
       "globalSlug": "classic-az-sneakers",
@@ -3726,40 +3726,8 @@
       "relatedNames": []
     }
   ],
-  "groups": [
-    {
-      "englishKey": "UK CLUB C GROUNDS UK",
-      "main": {
-        "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （ディープオリーブ）",
-        "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BU041361_1_l.jpg",
-        "productNumber": "RE1759BU041361",
-        "brandItemNumber": "131917 100228142 色 ディープオリーブ（100228142）",
-        "season": "2025年 秋冬",
-        "brandItemFirstDigit": "1",
-        "url": "https://reebok.jp/commodity/SREB1055D/RE1759BU041361/",
-        "brandCode": "RE1759",
-        "brandName": "REEBOK",
-        "englishKey": "UK CLUB C GROUNDS UK",
-        "relatedNames": []
-      },
-      "related": [
-        {
-          "name": "クラブシー グラウンズ UK / CLUB C GROUNDS UK （ブラックチェリー）",
-          "image": "https://sc3.locondo.jp/contents/commodity_image/RE/RE1759BW041012_1_l.jpg",
-          "productNumber": "RE1759BW041012",
-          "brandItemNumber": "131885 100229523 色 ブラックチェリー（100229523）",
-          "season": "2025年 秋冬",
-          "brandItemFirstDigit": "1",
-          "url": "https://reebok.jp/commodity/SREB1055D/RE1759BW041012/",
-          "brandCode": "RE1759",
-          "brandName": "REEBOK",
-          "englishKey": "UK CLUB C GROUNDS UK",
-          "relatedNames": []
-        }
-      ]
-    }
-  ],
-  "newCount": 1,
+  "groups": [],
+  "newCount": 0,
   "displayedMainProductNumbers": [
     "RE1759BC14839",
     "RE1759BC15740",
@@ -4098,5 +4066,5 @@
     "RE1759BU041978",
     "RE1759BU041361"
   ],
-  "scanned": 2103
+  "scanned": 2097
 }
